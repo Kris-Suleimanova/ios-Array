@@ -15,8 +15,8 @@ for k in 0..<Mon.count {
 
 var h = [(Mon: String, day: Int)]()
 for k in 0..<Mon.count {
-    let item = (Mon[k], day[k])
-    h.append(item)
+    let i = (Mon[k], day[k])
+    h.append(i)
 }
 print(h)
 
