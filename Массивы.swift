@@ -15,8 +15,7 @@ for k in 0..<Mon.count {
 
 var h = [(Mon: String, day: Int)]()
 for k in 0..<Mon.count {
-    let i = (Mon[k], day[k])
-    h.append(i)
+    h.append((Mon[k], day[k]))
 }
 print(h)
 
@@ -31,4 +30,4 @@ var s = days
 for  k in 1..<month {
     s += day[k]
 }
-print(s)
+print(s-1)
